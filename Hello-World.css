@@ -20,6 +20,6 @@ h2{
     color: blue;
 }
 
-#new-fc{
-    font-family: fantasy;
+#new-font{
+    font-family: fantasy, cursive, serif;
 }
