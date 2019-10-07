@@ -14,5 +14,12 @@ h2{
 
 .red-heading{
     color: red;
-    
+}
+
+.blue-text{
+    color: blue;
+}
+
+#new-fc{
+    font-family: fantasy;
 }
