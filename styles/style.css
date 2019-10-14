@@ -18,6 +18,10 @@ header p {
     color: blue;
 }
 
+main {
+    background-color: lightgray;
+}
+
 .red-heading{
     color: red;
 }
@@ -28,4 +32,16 @@ header p {
 
 #new-font{
     font-family: fantasy, cursive, serif;
+}
+
+footer {
+    background-color: lavender;
+    border: black solid thin;
+    font-weight: bold;
+    padding-left: 5px;
+    text-align: center;
+}
+
+figure.left {
+    float: left;
 }
