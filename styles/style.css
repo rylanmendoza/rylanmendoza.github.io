@@ -42,6 +42,26 @@ footer {
     text-align: center;
 }
 
+nav {        
+    background-color: aliceblue;
+    border: 0.5px green solid;
+    padding: 5px;
+    margin: -1px 0px 0px 0px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
+
 figure.left {
     float: left;
 }
