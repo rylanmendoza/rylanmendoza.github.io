@@ -66,4 +66,72 @@ figure.left {
     float: left;
 }
 
+.btn-left-pad {
+    padding-left: 25px;                   
+}
 
+.btn-right-pad {
+padding-right: 25px;
+}
+
+.btn-top-bottom-pad {
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.btn-padding-verbose {
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.btn-padding-concise {
+padding: 25px;
+}
+
+.btn-padding {
+    padding: 25px;
+    border: 10px green double;    
+    border-radius: 22px;
+}
+
+.btn-padding:hover {
+    background-color: forestgreen;
+    border-color: white;
+    color: white;
+}                   
+        
+.btn-padding:active {
+    background-color: red;
+}
+
+.btn-margin-padding {
+    margin: 5px;
+    display: inline-block;
+    border: thin;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 5px darkred double;
+}          
+
+.btn-margin-padding:hover {
+    background-color: red;
+    color: white;
+}
+
+#button-wrapper {
+    display: inline-block;
+    border: thin black solid;
+}
+
+aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 33%;        
+}
