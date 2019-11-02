@@ -13,10 +13,10 @@ if (height >= 5) {
             
 
 height = -6;
-
-if (height >= 5) {
+//Turning point changed to 25
+if (height >= 25) {
     console.log('We have a big one');
-} else if (height >= 0) {
+} else if (height >= 25) {
     console.log('We have a little one');
 } else {
     console.log('We have a negative number or invalid number')
