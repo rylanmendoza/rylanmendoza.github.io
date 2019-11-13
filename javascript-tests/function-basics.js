@@ -1,55 +1,39 @@
-function simpleFunction(){
-    console.log("functions should consist of statements designed to perform a single task.")
-}
+window.onload = () => {
+    // all code goes in here
+    const simpleFunctionDisplay = document.getElementById('simpleFunctionDisplay');
+    const functionCallsAction = document.getElementById('functionCallsAction');
 
-function functionParameters(functionParameters) {
-    return functionParameters;
+    functionCallsAction.onclick = simpleFunction;
+
+    function simpleFunction(){
+        console.log("Functions should consist of statements designed to perform a single task.");
+        simpleFunctionDisplay.textContent = "simple";   
+    }
+
+function functionParameters(parameter) {
+    console.log(parameter);
 }
 
 function functionReturn() {
-    console.log("Many functions return values.")
+    return ("Many functions return values.")
+}
+
+function add(a,b) {
+    const addResult = a + b;
+    console.log('Inside add', addResult);
+    return addResult;
 }
 
 simpleFunction();
-functionParameters();
+
+// adds a value to the the function that was empty
+functionParameters("Many functions take parameters.");
+
 functionReturn();
 
-functionParameters = "Many functions take parameters."
+const addResult = add(2,3);
+console.log('Add result:' , addResult);
+const returnValue = functionReturn(addResult);
 
-window.onload = () => {
-    console.log(simpleFunction);
-    console.log(functionParameters);
-    console.log(functionReturn);
+console.log(returnValue);
 }
-
-const simpleFunctionDisplay = document.getElementById('simpleFunctionDisplay');
-const functionCallsAction = document.getElementById('functionCallsAction');
-
-function simpleFunction() {
-    console.log('simple');
-    simpleFunctionDisplay.textContent = "simple";
-}
-
-functionCallsAction.onclick = simple;
-
-<label for="nameDisplay">Enter a name</label>
-<input type="text" id="nameDisplay" name="nameDisplay"/>
-
-const data = nameDisplay.value; 
-
-const elfCode = {
-    appendToList: (list, value) => {
-        const li = document.createElement("li");
-        li.appendChild(document.createTextNode(value));
-        list.appendChild(li);
-    }
-}
-
-const someAction = document.getElementById('someAction');
-someAction.onclick = function() {
-}
-
-<script src="./elf-code.js"></script>
-
-<ul id="listDisplay"></ul>
-            
