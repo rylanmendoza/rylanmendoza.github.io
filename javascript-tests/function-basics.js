@@ -7,7 +7,8 @@ window.onload = () => {
 
     function simpleFunction(){
         console.log("Functions should consist of statements designed to perform a single task.");
-        simpleFunctionDisplay.textContent = "simple";   
+        simpleFunctionDisplay.textContent = "simple";  
+        functionCallsAction.onclick = 'simple'; 
     }
 
 function functionParameters(parameter) {
@@ -26,18 +27,8 @@ function add(a,b) {
 
 simpleFunction();
 
-<<<<<<< HEAD
-const elfCode = {
-    appendToList: (list, value) => {
-        const li = document.createElement("li");
-        li.appendChild(document.createTextNode(value));
-        list.appedChild(li);
-    }
-}
-=======
 // adds a value to the the function that was empty
 functionParameters("Many functions take parameters.");
->>>>>>> 100bdef849df58131479eb4f2a893cf0b6be15ca
 
 functionReturn();
 
@@ -46,4 +37,22 @@ console.log('Add result:' , addResult);
 const returnValue = functionReturn(addResult);
 
 console.log(returnValue);
+
+const elfCode = {
+    appendToList: (list, value) => {
+        const li = document.createElement("li");
+        li.appendChild(document.createTextNode(value));
+        list.appendChild(li);
+    }
+}
+
+const simpleFunction = document.getElementById('someAction');
+simpleFunction.onclick = function() {
+    console.log('Same')
+}
+
+document.getElementById("addToListAction").value;
+document.getElementById("listDisplay").value;
+document.getElementById("nameDisplay").value;
+
 }
