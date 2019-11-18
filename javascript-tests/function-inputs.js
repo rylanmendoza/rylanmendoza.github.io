@@ -10,7 +10,7 @@ window.onload = () => {
     };
 };
 const feetToInches = (feet) => {
-    return this.feet * 12;
+    return feet * 12;
 };
 
 const milesToFeetAction = 
@@ -24,7 +24,7 @@ feetToInchesAction.onclick = () => {
 };
 
 const milesToFeet = (miles) => {
-    return this.miles * 5280;
+    return miles * 5280;
 };
 
 const areaOfTriangleAction = 
