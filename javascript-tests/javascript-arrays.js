@@ -19,7 +19,7 @@ window.onload = () => {
     numbersAction.onclick = () => {
         for (let numbers of arrays.numbers) {
         console.log(numbers);
-        elfcode.appendToList(numbersDisplay, numbers);
+        elfCode.appendToList(numbersDisplay, numbers);
         }
     }
     
