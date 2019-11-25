@@ -1,3 +1,4 @@
+window.onload = () => {
 height = 5;
 
 if (height >= 5) {
@@ -37,7 +38,6 @@ switch(height) {
         console.log('We do not know about this one.')
 }
 
-window.onload = () => {
     const simpleBranchAction = document.getElementById('simpleBranchAction');
     const simpleBranchDisplay = document.getElementById('simpleBranchDisplay');
     
