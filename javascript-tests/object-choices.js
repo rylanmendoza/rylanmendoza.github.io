@@ -2,7 +2,6 @@ window.onload = () => {
     
     const simpleObjectDisplay = document.getElementById('simpleObjectDisplay');
     const simpleObjectAction = document.getElementById('simpleObjectAction');
-    simpleObjectDisplay.textcontent = "RAWR";
 
     const simpleObject = {
         firstName: 'Ren',
