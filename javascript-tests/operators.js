@@ -35,7 +35,7 @@ if ( (5 === y) || (x < 1) ) {
     console.log("FAILED: x is smaller than one or 5 does not equal y")
 }
 
-if (( x < 1 ) ||( 5 === y )) {
+if (( x < 1 ) || ( 5 === y )) {
     console.log("PASSED: x is smaller than one or 5 equals y")
 } else {
     console.log("FAILED: x is smaller than one or 5 does not equal y")
