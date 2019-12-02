@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href = "../styles/style.css">
+    <script src = "./radio-choices.js"></script>
+    <title>Radio Choices</title>
+
+</head>
+<body>
+    <header>
+        <h1>Radio Choices</h1>
+    </header>
+
+<main>
+    <section>
+        <fieldset> 
+            <legend>The User Selection</legend> 
+            <p><b>User choice</b>: <span id="user-choice">Unknown</span></p> 
+        </fieldset>
+    </section>
+
+    <section id = "form-section">
+        <fieldset>
+            <legend>Our Form</legend>
+            <!-- OUR FORM GOES HERE -->
+        </fieldset>
+    </section>
+
+    <form id="sort-type" action="goThere">
+        <input type="radio" id="blue" name="sorter" value="Blue" checked>
+        <label for="blue">Blue</label>
+    
+        <input type="radio" id="green" name="sorter" value="Green">
+        <label for="green">Green</label>
+        <div>
+        <input class="btn-padding" type="submit" value="Submit">
+        </div>
+    </form>
+    
+</main>
+
+    <footer>
+        <p>Copyright &copy; 2019 by Rylan Mendoza</p>
+        <p><a href="../index.html"> Home</a></p>
+    </footer>
+
+</body>
+</html>
